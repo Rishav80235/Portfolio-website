@@ -6,15 +6,34 @@ function App() {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce application built with React, Node.js, and MongoDB. Features include user authentication, product management, and payment integration.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"]
+      title: "Portfolio Website",
+      description: "A modern, responsive portfolio website built with React.js and Bootstrap. Features a clean, mobile-first design showcasing my skills and projects.",
+      technologies: ["React.js", "Bootstrap", "CSS3", "Responsive Design"]
     },
     {
-      title: "Task Management App",
-      description: "A responsive task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["React", "Firebase", "Material-UI", "Redux"]
+      title: "To-Do List App",
+      description: "A feature-rich todo application with CRUD operations and local storage persistence. Built with React.js and styled using Bootstrap.",
+      technologies: ["React.js", "LocalStorage", "Bootstrap", "CRUD Operations"]
+    },
+    {
+      title: "Weather App",
+      description: "A real-time weather application that fetches and displays weather data using the OpenWeatherMap API. Features temperature, humidity, and weather conditions.",
+      technologies: ["React.js", "REST API", "OpenWeatherMap", "Responsive Design"]
     }
+  ]
+
+  const skills = {
+    languages: ["JavaScript (ES6+)", "HTML5", "CSS3"],
+    frameworks: ["React.js", "Bootstrap"],
+    tools: ["Git", "GitHub", "VS Code"],
+    other: ["RESTful API Integration", "Responsive Design", "SEO Basics"]
+  }
+
+  const softSkills = [
+    "Quick Learner",
+    "Team Collaboration",
+    "Problem Solving",
+    "Attention to Detail"
   ]
 
   return (
@@ -28,6 +47,13 @@ function App() {
             onClick={() => setActiveSection('about')}
           >
             About
+          </a>
+          <a 
+            href="#skills"
+            className={activeSection === 'skills' ? 'active' : ''}
+            onClick={() => setActiveSection('skills')}
+          >
+            Skills
           </a>
           <a 
             href="#projects"
@@ -49,17 +75,69 @@ function App() {
       <main>
         <section id="about">
           <h2>About Me</h2>
-          <p>
-            I'm a passionate Frontend Developer with a recent certification in MERN stack development.
-            My journey in web development is driven by a love for creating beautiful, responsive, and
-            user-friendly applications. I specialize in modern technologies like React.js, TypeScript,
-            and REST APIs, always focusing on writing clean, maintainable code and following best practices.
-          </p>
-          <p>
-            Currently seeking opportunities to contribute to meaningful projects where I can apply my
-            skills and continue growing as a developer. I'm particularly interested in building
-            applications that make a positive impact on users' lives.
-          </p>
+          <div className="about-content">
+            <p className="objective">
+              Aspiring Frontend Developer with a recent certification in MERN stack development. 
+              I am passionate about building responsive and scalable web applications using modern 
+              technologies like React.js, Bootstrap, and REST APIs. Seeking an internship opportunity 
+              to contribute to impactful projects and grow my frontend development skills.
+            </p>
+            <div className="education">
+              <h3>Education</h3>
+              <p>Bachelor of Science in Computer Applications</p>
+              <p>Nirwan University, Jaipur — 2024 – Present</p>
+            </div>
+            <div className="certification">
+              <h3>Certification</h3>
+              <p>MERN Stack Developer Certification – WsCube Tech (2025)</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills">
+          <h2>Technical Skills</h2>
+          <div className="skills-grid">
+            <div className="skill-category">
+              <h3>Languages</h3>
+              <div className="tech-stack">
+                {skills.languages.map((skill, i) => (
+                  <span key={i} className="tech-tag">{skill}</span>
+                ))}
+              </div>
+            </div>
+            <div className="skill-category">
+              <h3>Frameworks & Libraries</h3>
+              <div className="tech-stack">
+                {skills.frameworks.map((skill, i) => (
+                  <span key={i} className="tech-tag">{skill}</span>
+                ))}
+              </div>
+            </div>
+            <div className="skill-category">
+              <h3>Tools</h3>
+              <div className="tech-stack">
+                {skills.tools.map((skill, i) => (
+                  <span key={i} className="tech-tag">{skill}</span>
+                ))}
+              </div>
+            </div>
+            <div className="skill-category">
+              <h3>Other Skills</h3>
+              <div className="tech-stack">
+                {skills.other.map((skill, i) => (
+                  <span key={i} className="tech-tag">{skill}</span>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="soft-skills">
+            <h3>Soft Skills</h3>
+            <div className="tech-stack">
+              {softSkills.map((skill, i) => (
+                <span key={i} className="tech-tag soft-skill">{skill}</span>
+              ))}
+            </div>
+          </div>
         </section>
 
         <section id="projects">
@@ -82,11 +160,14 @@ function App() {
         <section id="contact">
           <h2>Get In Touch</h2>
           <div className="contact-info">
-            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
-            <a href="mailto:your.email@example.com">your.email@example.com</a>
+            <div className="contact-details">
+              <p>📍 Hindaun, Rajasthan, India</p>
+              <p>📞 +91-9929873530</p>
+              <a href="mailto:rishavaeron80235@email.com">✉️ rishavaeron80235@email.com</a>
+            </div>
             <div className="social-links">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://github.com/Rishav80235" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://vite-react-delta-wine-35.vercel.app/" target="_blank" rel="noopener noreferrer">Portfolio</a>
             </div>
           </div>
         </section>
