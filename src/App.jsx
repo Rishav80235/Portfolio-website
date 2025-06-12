@@ -16,7 +16,10 @@ function App() {
         <section id="about">
           <h2>About Me</h2>
           <p>
-            I am a passionate developer with experience in React, JavaScript, and web development.
+            Aspiring Frontend Developer with a recent certification in MERN stack development.
+             I am passionate about building responsive and scalable web applications using modern 
+             technologies like React.js, Bootstrap, and REST APIs. Seeking an internship opportunity 
+             to contribute to impactful projects and grow my frontend development skills.
           </p>
         </section>
         <section id="projects">
