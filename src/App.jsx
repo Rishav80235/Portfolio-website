@@ -8,17 +8,20 @@ function App() {
     {
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website built with React.js and Bootstrap. Features a clean, mobile-first design showcasing my skills and projects.",
-      technologies: ["React.js", "Bootstrap", "CSS3", "Responsive Design"]
+      technologies: ["React.js", "Bootstrap", "CSS3", "Responsive Design"],
+      link: "https://vite-react-delta-wine-35.vercel.app/"
     },
     {
       title: "To-Do List App",
       description: "A feature-rich todo application with CRUD operations and local storage persistence. Built with React.js and styled using Bootstrap.",
-      technologies: ["React.js", "LocalStorage", "Bootstrap", "CRUD Operations"]
+      technologies: ["React.js", "LocalStorage", "Bootstrap", "CRUD Operations"],
+      link: "https://todo-list-rho-nine-17.vercel.app/"
     },
     {
       title: "Weather App",
       description: "A real-time weather application that fetches and displays weather data using the OpenWeatherMap API. Features temperature, humidity, and weather conditions.",
-      technologies: ["React.js", "REST API", "OpenWeatherMap", "Responsive Design"]
+      technologies: ["React.js", "REST API", "OpenWeatherMap", "Responsive Design"],
+      link: "https://weather-app-livid-one-99.vercel.app/"
     }
   ]
 
@@ -152,6 +155,7 @@ function App() {
                     <span key={i} className="tech-tag">{tech}</span>
                   ))}
                 </div>
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">View Project</a>
               </div>
             ))}
           </div>
