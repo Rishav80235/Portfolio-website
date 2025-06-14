@@ -33,6 +33,21 @@ function App() {
     softSkills: ["Quick Learner", "Team Collaboration", "Problem Solving", "Attention to Detail", "Time Management", "Communication"]
   }
 
+  const documents = [
+    {
+      title: "Resume",
+      description: "My professional resume showcasing my skills, experience, and education",
+      icon: "📄",
+      file: "/Rishav Aeron.pdf"
+    },
+    {
+      title: "MERN Stack Certification",
+      description: "Certification in MERN Stack Development from WsCube Tech",
+      icon: "🏆",
+      file: "/Rishav-certificate.pdf"
+    }
+  ]
+
   return (
     <>
       <header className="header">
@@ -88,6 +103,27 @@ function App() {
               <h3>Certification</h3>
               <p>MERN Stack Developer Certification – WsCube Tech (2025)</p>
             </div>
+          </div>
+        </section>
+
+        <section id="documents">
+          <h2>Documents</h2>
+          <div className="documents-grid">
+            {documents.map((doc, index) => (
+              <div key={index} className="document-card">
+                <div className="document-icon">{doc.icon}</div>
+                <h3>{doc.title}</h3>
+                <p>{doc.description}</p>
+                <a 
+                  href={doc.file} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="document-link"
+                >
+                  View Document
+                </a>
+              </div>
+            ))}
           </div>
         </section>
 
