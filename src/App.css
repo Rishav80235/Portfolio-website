@@ -300,7 +300,21 @@ section:hover h2 {
 }
 
 .tech-tag.soft-skill {
-  background: var(--text-color);
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+  border: none;
+  box-shadow: 0 2px 4px rgba(79, 70, 229, 0.2);
+}
+
+.tech-tag.soft-skill:hover {
+  background: linear-gradient(135deg, #4338ca, #6d28d9);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(79, 70, 229, 0.3);
+}
+
+.tech-tag.soft-skill:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(79, 70, 229, 0.2);
 }
 
 .projects-grid {

@@ -29,15 +29,9 @@ function App() {
     languages: ["JavaScript (ES6+)", "HTML5", "CSS3"],
     frameworks: ["React.js", "Bootstrap"],
     tools: ["Git", "GitHub", "VS Code"],
-    other: ["RESTful API Integration", "Responsive Design", "SEO Basics"]
+    other: ["RESTful API Integration", "Responsive Design", "SEO Basics"],
+    softSkills: ["Quick Learner", "Team Collaboration", "Problem Solving", "Attention to Detail", "Time Management", "Communication"]
   }
-
-  const softSkills = [
-    "Quick Learner",
-    "Team Collaboration",
-    "Problem Solving",
-    "Attention to Detail"
-  ]
 
   return (
     <>
@@ -132,13 +126,13 @@ function App() {
                 ))}
               </div>
             </div>
-          </div>
-          <div className="soft-skills">
-            <h3>Soft Skills</h3>
-            <div className="tech-stack">
-              {softSkills.map((skill, i) => (
-                <span key={i} className="tech-tag soft-skill">{skill}</span>
-              ))}
+            <div className="skill-category">
+              <h3>Soft Skills</h3>
+              <div className="tech-stack">
+                {skills.softSkills.map((skill, i) => (
+                  <span key={i} className="tech-tag soft-skill">{skill}</span>
+                ))}
+              </div>
             </div>
           </div>
         </section>
