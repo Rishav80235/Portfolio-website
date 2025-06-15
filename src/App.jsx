@@ -82,28 +82,28 @@ function App() {
       <header className="header">
         <h1>RISHAV AERON</h1>
         <nav>
-          <a 
-            href="#about" 
+          <a
+            href="#about"
             className={activeSection === 'about' ? 'active' : ''}
             onClick={() => setActiveSection('about')}
           >
             About
           </a>
-          <a 
+          <a
             href="#skills"
             className={activeSection === 'skills' ? 'active' : ''}
             onClick={() => setActiveSection('skills')}
           >
             Skills
           </a>
-          <a 
+          <a
             href="#projects"
             className={activeSection === 'projects' ? 'active' : ''}
             onClick={() => setActiveSection('projects')}
           >
             Projects
           </a>
-          <a 
+          <a
             href="#connect"
             className={activeSection === 'connect' ? 'active' : ''}
             onClick={() => setActiveSection('connect')}
@@ -129,9 +129,9 @@ function App() {
                   </div>
                 </div>
                 <p className="objective">
-                  Aspiring Frontend Developer with a recent certification in MERN stack development. 
-                  I am passionate about building responsive and scalable web applications using modern 
-                  technologies like React.js, Bootstrap, and REST APIs. Seeking an internship opportunity 
+                  Aspiring Frontend Developer with a recent certification in MERN stack development.
+                  I am passionate about building responsive and scalable web applications using modern
+                  technologies like React.js, Bootstrap, and REST APIs. Seeking an internship opportunity
                   to contribute to impactful projects and grow my frontend development skills.
                 </p>
                 <div className="about-highlights">
@@ -149,7 +149,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="about-details">
                 <div className="education">
                   <div className="detail-header">
@@ -166,7 +166,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="certification">
                   <div className="detail-header">
                     <span className="detail-icon">🏆</span>
@@ -198,10 +198,10 @@ function App() {
                 <div className="document-icon">{doc.icon}</div>
                 <h3>{doc.title}</h3>
                 <p>{doc.description}</p>
-                <a 
-                  href={doc.file} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
+                <a
+                  href={doc.file}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="document-link"
                 >
                   View Document
@@ -294,10 +294,10 @@ function App() {
                     ))}
                   </div>
                   <div className="project-links">
-                    <a 
-                      href={project.liveLink} 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
+                    <a
+                      href={project.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="project-link"
                     >
                       <span>View Live</span>
@@ -307,10 +307,10 @@ function App() {
                         <line x1="10" y1="14" x2="21" y2="3"></line>
                       </svg>
                     </a>
-                    <a 
-                      href={project.githubLink} 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
+                    <a
+                      href={project.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="project-link secondary"
                     >
                       <span>Source Code</span>
@@ -330,7 +330,7 @@ function App() {
             <h2>Let's Connect</h2>
             <p className="connect-subtitle">Feel free to reach out for collaborations or just a friendly hello</p>
           </div>
-          
+
           <div className="connect-container">
             <div className="connect-grid">
               <div className="connect-info">
@@ -382,33 +382,33 @@ function App() {
               <div className="connect-social">
                 <h3>Connect on Social Media</h3>
                 <p className="social-subtitle">Let's stay connected and share our journey</p>
-                
+
                 <div className="social-links">
-                  <a href="https://github.com/RishavAeron" 
-                     className="social-link github" 
-                     target="_blank" 
-                     rel="noopener noreferrer"
-                     aria-label="GitHub Profile">
+                  <a href="https://github.com/Rishav80235"
+                    className="social-link github"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub Profile">
                     <i className="fab fa-github"></i>
-                    <span className="social-tooltip">GitHub</span>
+                    <span className="icon-label">GitHub</span>
                   </a>
-                  
-                  <a href="https://www.linkedin.com/in/rishav-aeron-54a2b9254/" 
-                     className="social-link linkedin" 
-                     target="_blank" 
-                     rel="noopener noreferrer"
-                     aria-label="LinkedIn Profile">
+
+                  <a href="https://www.linkedin.com/in/rishav-aeron-344048208/"
+                    className="social-link linkedin"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn Profile">
                     <i className="fab fa-linkedin-in"></i>
-                    <span className="social-tooltip">LinkedIn</span>
+                    <span className="icon-label">LinkedIn</span>
                   </a>
-                  
-                  <a href="https://x.com/AeronRishav54" 
-                     className="social-link twitter" 
-                     target="_blank" 
-                     rel="noopener noreferrer"
-                     aria-label="Twitter Profile">
+
+                  <a href="https://x.com/AeronRishav54"
+                    className="social-link twitter"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Twitter Profile">
                     <i className="fab fa-x-twitter"></i>
-                    <span className="social-tooltip">Twitter</span>
+                    <span className="icon-label">Twitter</span>
                   </a>
                 </div>
 
