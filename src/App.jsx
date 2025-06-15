@@ -121,7 +121,7 @@ function App() {
               <div className="about-main">
                 <div className="about-header">
                   <div className="about-avatar">
-                    <img src="./public/RishavAeron.jpg" alt="Rishav Aeron" />
+                    <img src="./src/assets/RishavAeron.jpg" alt="Rishav Aeron" />
                   </div>
                   <div className="about-title">
                     <h3>Frontend Developer</h3>
