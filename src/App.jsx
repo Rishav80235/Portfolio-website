@@ -6,6 +6,15 @@ function App() {
 
   const projects = [
     {
+      title: "Easy Shop",
+      description: "An ecommerce website offering a seamless shopping experience with modern UI, product browsing, and secure checkout. Built for performance and user-friendliness.",
+      image: "/src/assets/easyshop.jpg",
+      technologies: ["React.js", "CSS3", "JavaScript", "Ecommerce", "Responsive Design"],
+      liveLink: "https://e-commerce-website-mu-blond.vercel.app/",
+      githubLink: "",
+      features: ["Product Catalog", "Shopping Cart", "User Authentication", "Responsive Design"]
+    },
+    {
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website showcasing my skills and projects. Features a clean, mobile-first design with smooth animations and interactive elements.",
       image: "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1000",
@@ -121,7 +130,7 @@ function App() {
               <div className="about-main">
                 <div className="about-header">
                   <div className="about-avatar">
-                    <img src="./src/assets/RishavAeron.jpg" alt="Rishav Aeron" />
+                    <img src="/src/assets/RishavAeron.jpg" alt="Rishav Aeron" />
                   </div>
                   <div className="about-title">
                     <h3>Frontend Developer</h3>
