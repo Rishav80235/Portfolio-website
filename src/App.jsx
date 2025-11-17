@@ -40,6 +40,24 @@ function App() {
       liveLink: "https://weather-app-livid-one-99.vercel.app/",
       githubLink: "https://github.com/Rishav80235/Weather-App",
       features: ["Real-time Weather", "Location Search", "Weather Forecast", "Responsive UI"]
+    },
+    {
+      title: "Gym Management System",
+      description: "A comprehensive gym management system built with Vue.js, Redux, and Firebase. Features member management, workout tracking, and administrative tools for gym operations.",
+      image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1000",
+      technologies: ["Vue.js", "Redux", "Firebase", "React Hooks", "JavaScript"],
+      liveLink: "https://gym-managment-system-e8mc.vercel.app/",
+      githubLink: "",
+      features: ["Member Management", "Workout Tracking", "Admin Dashboard", "Real-time Updates"]
+    },
+    {
+      title: "Student Teacher Appointment App",
+      description: "An appointment scheduling application for students and teachers. Built with Vue.js, Redux, and Firebase, featuring real-time booking, calendar integration, and notification system.",
+      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000",
+      technologies: ["Vue.js", "Redux", "Firebase", "React Hooks", "JavaScript"],
+      liveLink: "https://student-teacher-appoinment.vercel.app/",
+      githubLink: "",
+      features: ["Appointment Booking", "Calendar Integration", "Real-time Notifications", "User Management"]
     }
   ]
 
@@ -51,11 +69,14 @@ function App() {
     ],
     frameworks: [
       { name: "React.js", level: "intermediate" },
+      { name: "Vue.js", level: "intermediate" },
+      { name: "Redux", level: "intermediate" },
       { name: "Bootstrap", level: "advanced" }
     ],
     tools: [
       { name: "Git", level: "intermediate" },
       { name: "GitHub", level: "intermediate" },
+      { name: "Firebase", level: "intermediate" },
       { name: "VS Code", level: "advanced" }
     ],
     other: [
@@ -350,7 +371,7 @@ function App() {
                   <div className="connect-text">
                     <h3>Location</h3>
                     <p>Jaipur, Rajasthan, India</p>
-                    <span className="connect-tag">Available for Remote Work</span>
+                    <span className="connect-tag">Available for Work</span>
                   </div>
                 </div>
 
@@ -398,7 +419,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="GitHub Profile">
-                    <i className="fab fa-github"></i>
+                    <img src="/github.png" alt="GitHub" />
                     <span className="icon-label">GitHub</span>
                   </a>
 
@@ -407,7 +428,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn Profile">
-                    <i className="fab fa-linkedin-in"></i>
+                    <img src="/linkedin.png" alt="LinkedIn" />
                     <span className="icon-label">LinkedIn</span>
                   </a>
 
@@ -416,7 +437,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Twitter Profile">
-                    <i className="fab fa-x-twitter"></i>
+                    <img src="/Twitter.png" alt="Twitter" />
                     <span className="icon-label">Twitter</span>
                   </a>
                 </div>

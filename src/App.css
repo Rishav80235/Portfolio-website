@@ -1783,13 +1783,17 @@ section:hover h2 {
 .social-link.linkedin:hover::before { background: linear-gradient(135deg, #0077B5, #00A0DC); }
 .social-link.twitter:hover::before { background: linear-gradient(135deg, #1DA1F2, #14171A); }
 
-.social-link i {
+.social-link img {
   position: relative;
   z-index: 1;
   transition: var(--transition-normal);
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: contain;
+  display: block;
 }
 
-.social-link:hover i {
+.social-link:hover img {
   transform: scale(1.2);
 }
 
@@ -2791,8 +2795,11 @@ section:hover h2::after {
   overflow: hidden;
 }
 
-.social-link i {
-  font-size: 1.25rem;
+.social-link img {
+  width: 1.25rem;
+  height: 1.25rem;
+  object-fit: contain;
+  display: block;
   transition: transform 0.3s ease;
 }
 
@@ -2816,7 +2823,7 @@ section:hover h2::after {
   box-shadow: var(--shadow-md);
 }
 
-.social-link:hover i {
+.social-link:hover img {
   transform: scale(1.2);
 }
 
@@ -2936,8 +2943,11 @@ section:hover h2::after {
   overflow: hidden;
 }
 
-.social-link i {
-  font-size: 1.5rem;
+.social-link img {
+  width: 10.5rem;
+  height: 10.5rem;
+  object-fit: contain;
+  display: block;
   transition: transform 0.2s ease;
 }
 
@@ -2984,7 +2994,7 @@ section:hover h2::after {
   box-shadow: 0 4px 12px rgba(29, 161, 242, 0.2);
 }
 
-.social-link:hover i {
+.social-link:hover img {
   transform: scale(1.1);
 }
 
@@ -3015,8 +3025,11 @@ section:hover h2::after {
     font-size: var(--text-base);
   }
   
-  .social-link i {
-    font-size: 1.25rem;
+  .social-link img {
+    width: 1.25rem;
+    height: 1.25rem;
+    object-fit: contain;
+    display: block;
   }
 }
 
@@ -3053,8 +3066,8 @@ section:hover h2::after {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 70px;
+  height: 85px;
   border-radius: 50%;
   color: white;
   text-decoration: none;
@@ -3102,7 +3115,7 @@ section:hover h2::after {
   box-shadow: 0 4px 8px rgba(29, 161, 242, 0.2);
 }
 
-.social-link:hover i {
+.social-link:hover img {
   transform: scale(1.1);
 }
 
@@ -3142,8 +3155,11 @@ section:hover h2::after {
     height: 36px;
   }
   
-  .social-link i {
-    font-size: 1.1rem;
+  .social-link img {
+    width: 1.1rem;
+    height: 1.1rem;
+    object-fit: contain;
+    display: block;
   }
 }
 
