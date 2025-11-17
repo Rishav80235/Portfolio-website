@@ -19,7 +19,7 @@ function App() {
       description: "A modern, responsive portfolio website showcasing my skills and projects. Features a clean, mobile-first design with smooth animations and interactive elements.",
       image: "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1000",
       technologies: ["React.js", "CSS3", "JavaScript", "Responsive Design", "Glass Morphism"],
-      liveLink: "https://vite-react-delta-wine-35.vercel.app/",
+      liveLink: "https://personal-portfolio-website-beige-eight.vercel.app/",
       githubLink: "https://github.com/Rishav80235/Portfolio-Website",
       features: ["Modern UI/UX", "Responsive Design", "Interactive Elements", "Smooth Animations"]
     },
@@ -37,7 +37,7 @@ function App() {
       description: "A real-time weather application that provides accurate weather forecasts using the OpenWeatherMap API. Features temperature, humidity, and detailed weather conditions.",
       image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?q=80&w=1000",
       technologies: ["React.js", "REST API", "OpenWeatherMap", "CSS3", "JavaScript"],
-      liveLink: "https://weather-app-livid-one-99.vercel.app/",
+      liveLink: "https://a-weather-app-ashy.vercel.app/",
       githubLink: "https://github.com/Rishav80235/Weather-App",
       features: ["Real-time Weather", "Location Search", "Weather Forecast", "Responsive UI"]
     },
