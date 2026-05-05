@@ -11,7 +11,7 @@ function App() {
       image: "/easyshop.jpg",
       technologies: ["React.js", "CSS3", "JavaScript", "Ecommerce", "Responsive Design"],
       liveLink: "https://e-commerce-website-mu-blond.vercel.app/",
-      githubLink: "",
+      githubLink: "https://github.com/Rishav80235/E-Commerce-Website",
       features: ["Product Catalog", "Shopping Cart", "User Authentication", "Responsive Design"]
     },
     {
@@ -19,7 +19,7 @@ function App() {
       description: "A modern, responsive portfolio website showcasing my skills and projects. Features a clean, mobile-first design with smooth animations and interactive elements.",
       image: "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1000",
       technologies: ["React.js", "CSS3", "JavaScript", "Responsive Design", "Glass Morphism"],
-      liveLink: "https://personal-portfolio-website-beige-eight.vercel.app/",
+      liveLink: "https://vite-react-delta-wine-35.vercel.app/",
       githubLink: "https://github.com/Rishav80235/Portfolio-Website",
       features: ["Modern UI/UX", "Responsive Design", "Interactive Elements", "Smooth Animations"]
     },
@@ -47,7 +47,7 @@ function App() {
       image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1000",
       technologies: ["Vue.js", "Redux", "Firebase", "React Hooks", "JavaScript"],
       liveLink: "https://gym-managment-system-e8mc.vercel.app/",
-      githubLink: "",
+      githubLink: "https://github.com/Rishav80235/Gym-Managment-System",
       features: ["Member Management", "Workout Tracking", "Admin Dashboard", "Real-time Updates"]
     },
     {
@@ -56,7 +56,7 @@ function App() {
       image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000",
       technologies: ["Vue.js", "Redux", "Firebase", "React Hooks", "JavaScript"],
       liveLink: "https://student-teacher-appoinment.vercel.app/",
-      githubLink: "",
+      githubLink: "https://github.com/Rishav80235/Student-Teacher-Appoinment",
       features: ["Appointment Booking", "Calendar Integration", "Real-time Notifications", "User Management"]
     }
   ]
