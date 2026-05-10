@@ -97,7 +97,7 @@ function App() {
       title: "Resume",
       description: "My professional resume showcasing my skills, experience, and education",
       icon: "📄",
-      file: "../public/Rishav Aeron.pdf"
+      file: "../public/Rishav-Aeron.pdf"
     },
     {
       title: "MERN Stack Certification",
