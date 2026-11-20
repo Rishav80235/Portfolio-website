@@ -3,7 +3,6 @@ import { ArrowDown, Download, Radio, Terminal, Sparkles, Send, Play, RotateCcw, 
 import { GithubIcon, LinkedinIcon, TwitterIcon } from './SocialIcons';
 import { playHoverSound, playLaserClick, playPowerUp, playChime, playTerminalBlip } from '../utils/cyberAudio';
 import { useScramble } from '../utils/textScramble';
-import CyberRadar from './CyberRadar';
 import WarRoomTelemetry from './WarRoomTelemetry';
 
 export default function Hero() {
@@ -147,7 +146,7 @@ export default function Hero() {
       setTerminalLogs((prev) => [
         ...prev,
         { type: 'input', text: `> ${rawCmd}` },
-        { type: 'output', text: '[TELEMETRY] STATUS: ONLINE (100%) | LOCATION: Jaipur, Rajasthan | RADAR: ACTIVE' },
+        { type: 'output', text: '[TELEMETRY] STATUS: ONLINE (100%) | LOCATION: Jaipur, Rajasthan | LATENCY: <12MS' },
         { type: 'success', text: '[AVAILABILITY] OPEN FOR FULL-STACK & MOBILE ROLES' }
       ]);
       setIsTyping(false);
@@ -329,25 +328,6 @@ export default function Hero() {
 
         {/* Right Column: Holographic Cyber Terminal & 3D Tilt HUD */}
         <div className="hero-hud-col">
-          {/* Tactical Radar Telemetry Cluster */}
-          <div className="hud-radar-and-status-row">
-            <CyberRadar />
-            <div className="hud-radar-companion-box">
-              <div className="companion-item">
-                <span className="comp-lbl font-mono">// CORE_CLEARANCE</span>
-                <span className="comp-val text-cyan font-mono">LEVEL_4_FULL_STACK</span>
-              </div>
-              <div className="companion-item">
-                <span className="comp-lbl font-mono">// RADAR_TARGET_01</span>
-                <span className="comp-val text-emerald font-mono">CRM_SYSTEM (LIVE)</span>
-              </div>
-              <div className="companion-item">
-                <span className="comp-lbl font-mono">// RADAR_TARGET_02</span>
-                <span className="comp-val text-violet font-mono">GROOT_APP (MOBILE)</span>
-              </div>
-            </div>
-          </div>
-
           <div
             ref={cardRef}
             className="scifi-terminal-card"

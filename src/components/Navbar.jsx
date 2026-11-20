@@ -74,7 +74,7 @@ export default function Navbar() {
           <div className="telemetry-separator">//</div>
           <div className="telemetry-node">
             <Activity size={12} className="text-cyan animate-pulse" />
-            <span>RADAR_NODE: {activeSection.toUpperCase()}</span>
+            <span>ACTIVE_NODE: {activeSection.toUpperCase()}</span>
           </div>
           <div className="telemetry-separator">//</div>
           <div className="telemetry-node">
